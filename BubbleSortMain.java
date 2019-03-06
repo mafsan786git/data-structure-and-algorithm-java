@@ -1,6 +1,6 @@
 //MOHD AFSAN AHMAD
 //ROLL NO. 55 CS-B 
-//4th sem
+//BUBBLE SORT
 import java.io.*;
 import java.util.*;
 class BubbleSort

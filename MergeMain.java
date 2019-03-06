@@ -1,3 +1,6 @@
+//MOHD AFSAN AHMAD
+//ROLL NO 55.CSB
+//MERGE SORT
 import java.util.*;
 import java.io.*;
 import java.lang.*;
@@ -77,9 +80,10 @@ class MergeMain
 		//string s=br.readLine();
 		//int n=Integer.parseInt(br.readLine());
 		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the size array :");
 		int n=sc.nextInt();
-		System.out.println(n);
 		int a[]=new int[n];
+		System.out.println("enter the element of array :");
 		for(int i=0;i<n;i++)
 		{
 			//a[i]=Integer.parseInt(br.readLine());
@@ -92,9 +96,18 @@ class MergeMain
 		System.out.println("given array is now sorted");
 		for (int i=0;i<n;i++ )
 		{
-			System.out.println(a[i]);
+			System.out.print(a[i]+" ");
 		}
+		System.out.println("");
 	}
 	
 
 }
+/*OUTPUT
+enter the size array :
+10
+enter the element of array :
+3 2 1 6 5 4 9 8 7 5
+given array is now sorted
+1 2 3 4 5 5 6 7 8 9 
+*/
