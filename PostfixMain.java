@@ -1,3 +1,6 @@
+//MOHD AFSAN AHMAD
+//ROLL NO 55.CSB
+//INFIX TO POSTFIX
 import java.util.*;
 import java.io.*;
 
@@ -17,8 +20,6 @@ class Stackx{
         return stackarray[top--];
 	}
 	public boolean isempty(){return (top ==-1);}
-
-	//public boolean isfull()
 }
 class InfixToPostfix{  // inserting th operator in stack and operand in string
 	private Stackx thestack;
@@ -125,8 +126,24 @@ class PostfixMain
 		String s=br.readLine();
 		InfixToPostfix thetrans=new InfixToPostfix(s);
 		String output=thetrans.dotrans();
-		System.out.println("postfix is "+ output + '\n');
+		System.out.println("postfix is =>"+ output + "\n");
 
 
 	}
 }
+/*OUTPUT
+ enter the infix :
+1+2/6*4-2$5
+postfix is =>126/4*+25$-
+
+enter the infix :
+A+B*C$D
+postfix is =>ABCD$*+
+
+enter the infix :
+A+(B*C)
+postfix is =>ABC*+
+
+
+*/
+
