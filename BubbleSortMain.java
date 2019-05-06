@@ -11,11 +11,11 @@ class BubbleSort
 	{
 	 for(int j=0;j<n-i-1;j++)
 	 {
-		if(a[i]>a[j])
+		if(a[j]>a[j+1])
 		{
-		int temp=a[i];
-		a[i]=a[j];
-		a[j]=temp;
+		int temp=a[j];
+		a[j]=a[j+1];
+		a[j+1]=temp;
 		}
 	 }
 	}
